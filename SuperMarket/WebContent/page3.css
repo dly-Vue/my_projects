@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.leftbgbt {
+	position: absolute;
+	background: url(leftbgbt.jpg) no-repeat;
+	width: 11px;
+	height: 52px;
+	left: -11px;
+	top: -4px;
+}
+
+.leftbgbt2 {
+	position: absolute;
+	background: url(leftbgbt2.jpg) no-repeat;
+	width: 11px;
+	height: 48px;
+	left: -11px;
+	top: -1px;
+}
+
+.leftbox {
+	width: 140px;
+	float: left;
+}
+
+.cdlist div {
+	height: 28px;
+	line-height: 24px;
+	border-bottom: 1px #98c9ee dotted;
+}
+
+.cdlist div a {
+	display: block;
+	background: #fff;
+	line-height: 28px;
+	height: 28px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.cdlist div a:hover {
+	color: #f30;
+	background: #0080c4;
+	color: #fff;
+}
+
+.l_nav2 {
+	border: #bdd7f2 1px solid;
+	border-top: #0080c4 4px solid;
+	border-bottom: #0080c4 4px solid;
+	background: #ebf7ff url(leftdhbg.jpg) repeat-y right;
+	margin-left: 10px;
+}
+
+.l_nav2 .ta1 {
+	border-bottom: 1px #98c9ee solid;
+	display: block;
+	text-align: center;
+	position: relative;
+	height: 38px;
+	line-height: 38px;
+}
+
+.page {
+	width: 150px;
+	left: 200px;
+	height: 70px;
+	position: relative;
+}
+.page1 {
+	width: 500px;
+	left: 370px;
+	top: -106px;
+	height: 200px;
+	position: relative;
+	float: left;
+}
+.page2 {
+	width: 500px;
+	left: 370px;
+	top: -106px;
+	height: 200px;
+	position: relative;
+	float: left;
+}
+.page3 {
+	width: 500px;
+	left: 370px;
+	top: -161px;
+	height: 200px;
+	position: relative ;
+	float: left;
+}
+.page4 {
+	width: 500px;
+	left: 370px;
+	top: -111px;
+	height: 200px;
+	position: relative ;
+	float: left;
+}
