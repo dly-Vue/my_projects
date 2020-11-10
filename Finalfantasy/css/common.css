@@ -1,0 +1,285 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+    text-decoration-line: none;
+    
+}
+body{
+    background: black;overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 18px;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.nav {
+    display: block;
+    width: 100%;
+    height: 80px;
+    min-height: 80px;
+    background: black;
+    opacity: 0.99;
+    z-index: 1;
+}
+
+.nav_content {
+    display: block;
+    height: 80px;
+    width: 94%;
+    min-width: 1200px;
+    background: rgba(0,0,0,0.7);
+    margin: 0 2%;
+}
+
+.nav_content .left {
+    width: 133px;
+    height: 80px;
+    line-height: 100px;
+    text-align: center;
+    float: left;
+}
+
+.nav_content .mid {
+    width: 900px;
+    min-width: 900px;
+    height: 80px;
+    float: right;
+    overflow: hidden;
+}
+
+.nav_content .mid li {
+    width: 120px;
+    height: 80px;
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.nav_content .mid li a {
+    display: block;
+    height: 60px;
+    color: #999999;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.nav_content .mid li a:hover {
+    color: white;
+}
+
+.nav_content .mid li a div:nth-of-type(1) {
+    font-size: 12px;
+}
+
+
+.nav_content .mid li a div:nth-of-type(2) {
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+.nav_content .mid>div {
+    width: 100%;
+    height: 0px;
+    background-color:rgba(0,0,0,0.7);
+    position: absolute;
+    left: 0;
+    top: 80px;
+    border-top:1px solid #999999;
+    transition: height 0.5s;
+    overflow: hidden;
+}
+
+.nav_content .mid ul:hover+div, .nav_content .mid>div:hover,.app2:hover{
+   height: 260px;
+}
+
+.nav_content .mid>div div:nth-of-type(1) {
+    width: 300px;
+    margin: 30px 0 0 80px;
+    float: left;
+}
+.nav_content .mid>div div ul li {
+    width: 120px;
+    height: 40px;
+}
+.nav_content .mid>div div ul li a{
+    font-size: 18px;
+    
+}
+.nav_content .mid>div div ul{
+    border-top: 0px solid blue;  
+    transition: border-top 1s;
+ }
+.nav_content .mid>div div ul:hover{
+   border-top: 1px solid blue;  
+}
+
+.nav_content .mid>div div:nth-of-type(2) ul {
+    display: block;
+    width: 120px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 720px;
+}
+
+.nav_content .mid>div div:nth-of-type(3) ul {
+    display: block;
+    width: 120px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 590px;
+}
+
+.nav_content .mid>div div:nth-of-type(4) ul {
+    display: block;
+    width: 120px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 460px;
+}
+
+.nav_content .mid>div div:nth-of-type(5) ul {
+    display: block;
+    width: 120px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 330px;
+}
+
+
+  
+.nav_content .mid li:nth-of-type(6) a {
+    display: block;
+    height: 30px;
+    color: blue;
+    text-align: center;
+    margin-top: 25px;
+    border: 1px solid blue;
+    font-weight: 900;
+    border-radius: 5px;
+
+}
+
+.nav_content .mid li:nth-of-type(6) a:hover {
+    background: blue;
+    color: white;
+}
+
+.nav_content .mid li:nth-of-type(6) a div {
+    font-size: 20px;
+}
+
+.nav_content .mid li:nth-of-type(7) a {
+    display: block;
+    height: 30px;
+    color: blue;
+    text-align: center;
+    margin-top: 25px;
+    border: 1px solid blue;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.nav_content .mid li:nth-of-type(7) a:hover {
+    background: blue;
+    color: white;
+}
+
+.nav_content .mid li:nth-of-type(7) a div {
+    font-size: 20px;
+}
+
+/*尾部*/
+.footer {
+    width: 100%;
+    height: 160px;
+    background-image: url(../image/footer1.jpg) ;
+}
+
+.footer_content {
+    width: 1400px;
+    height: 160px;
+    background-image: url(../image/footer1.jpg) ;
+    margin: 0 auto;
+}
+
+.footer_left {
+    width: 230px;
+    height: 160px;
+    float: left;
+}
+
+.footer_left div {
+    width: 230px;
+    height: 80px;
+    line-height: 80px;
+    margin: 30px 0 0 0;
+    border-right: 2px solid #999999;
+}
+
+.footer_left div>img {
+    margin: 0 0 20px 0;
+}
+
+.footer_mid {
+    width: 800px;
+    height: 160px;
+    float: left;
+}
+
+.footer_mid div{
+  margin: 15px 0 0 0;
+}
+
+.footer_mid p {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    color: #999999;
+    font-size: 14px;
+    margin: 0 0 0 15px;
+}
+
+.footer_mid p a {
+    color: #999999;
+    font-size: 14px;
+}
+
+.footer_mid p a:hover {
+    color: #999999;
+    font-size: 14px;
+    text-decoration: underline;/**给a标签加下划线*/
+}
+
+.footer_right {
+    width: 350px;
+    height: 160px;
+    float: left;
+}
+
+.footer_right ul {
+    margin: 15px 0 0 0;
+}
+
+.footer_right ul li {
+    width: 150px;
+    height: 50px;
+    float: left;
+}

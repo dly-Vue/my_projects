@@ -1,0 +1,122 @@
+.header {
+    width: 100%;
+    height:823px;
+    background: black;
+    position: relative;
+}
+.lunbo{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0 auto; 
+     opacity: 0;
+}
+.img{ 
+    
+    min-height: 823px;
+    max-height: 823px;
+    overflow: hidden;
+   
+}
+.lunbo .img img{
+    width: 100%;
+    
+  
+}
+.lunbo:nth-of-type(1){
+    opacity: 1;
+}
+/*圆点，通过圆点控制轮播*/
+.dots{
+    width: 20px;
+    height: 180px;
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    margin-top: -90px;
+}
+.dots div{
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.on{
+    background-color: white;
+}
+/*每个轮播图的北景图片*/
+.lunbo_content1{
+   width: 569px;
+   height:637px;
+   position: absolute;
+   left: 200px;
+   top: 50%;
+   margin-top: -285px;
+   background:no-repeat  url("../image/station50_c.png");
+   overflow: hidden;
+}
+.lunbo_content2{
+    width: 439px;
+    height:658px;
+
+    position: absolute;
+    left: 200px;
+    top: 50%;
+    margin-top: -280px;
+    background:no-repeat  url("../image/station1_c.png");
+    overflow: hidden;
+ }
+ .lunbo_content3{
+    width: 439px;
+    height:658px;
+
+    position: absolute;
+    left: 200px;
+    top: 50%;
+    margin-top: -280px;
+    background:no-repeat  url("../image/station2_c.png");
+    overflow: hidden;
+ }
+ .lunbo_content4{
+    width: 439px;
+    height:658px;
+
+    position: absolute;
+    left: 200px;
+    top: 50%;
+    margin-top: -280px;
+    background:no-repeat url("../image/station3_c.png");
+    overflow: hidden;
+ }
+ .videos{
+     width: 868px;
+     height: 488px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-top: -24400px;
+     margin-left: -434px;
+ }
+ /*精灵图 **/
+ .close{
+     width: 48px;
+     height: 48px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-top: -244px;
+     margin-left: 434px;
+     background: url(../image/button_close.png);
+ }
+ .close:hover{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -244px;
+    margin-left: 434px;
+    background: url(../image/button_close.png) 0 48px;
+}
